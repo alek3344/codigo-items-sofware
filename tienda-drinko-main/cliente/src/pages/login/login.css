@@ -1,0 +1,80 @@
+.login-form, .contenedor {
+    position: relative;
+    top: 70px;
+    width: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    box-shadow: 4px 4px 20px rgb(245, 245, 0);
+    border-radius: 5px;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+
+.login-form input[type = "password"],
+.login-form input[type = "text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom:10px;
+    box-sizing: border-box;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(28, 31, 25);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+.btn-login:hover, btn-login:active{
+    color: #000;
+    background-color: rgb(245, 245, 0);
+    border-color: rgb(40, 43, 38);
+    border: 1px solid rgb(40, 43, 38);;
+}
+
+.btn-login:focus{
+    box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
+}
+
+.btn-register{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(245, 245, 0);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    color: black;
+    margin-top: 20px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.btn-register:hover, btn-register:active{
+    color: white;
+    background-color: #272c2a;
+    border-color: 1px solid #000000;
+}
+
+.btn-register:focus{
+    box-shadow: 0 0 0 3px #000000;
+}
